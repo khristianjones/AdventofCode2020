@@ -2,7 +2,7 @@
 
 expenses = [""]
 
-f = open("C:\\Users\jones\Desktop\Code\input.txt","r")
+f = open("input.txt","r")
 for x in f:
     expenses = f.read().splitlines()
 
